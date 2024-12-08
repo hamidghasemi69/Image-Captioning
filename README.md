@@ -1,9 +1,9 @@
 # Image-Captioning
 Training a CNN-RNN model to predict captions for a given image
 # Project Overview: Building a CNN-RNN Network for Image Captioning
-In this project, I implemented an encoder-decoder architecture using Convolutional Neural Network and Recurrent Neural Network for automatically generate captions from images. The training data is [COCO dataset](https://paperswithcode.com/dataset/coco).
+In this project, I implemented an encoder-decoder architecture using Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) to automatically generate captions from images. The training data used for this project is the [COCO dataset](https://paperswithcode.com/dataset/coco). 
 
-In the encodig side, a CNN is employed to extract the features of the input images, and on the decoder side, RNN (LSTM cells) are utilized. Below shows the encoder-decoder architecture:
+On the encoding side, a CNN is employed to extract features from the input images, while on the decoding side, RNNs with LSTM cells are used to generate the captions. Below is a representation of the encoder-decoder architecture:
 
 
 
