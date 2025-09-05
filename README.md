@@ -87,9 +87,9 @@ Inspired by the classic encoder–decoder architecture (CNN → LSTM) often used
 ## Contact & Contributions
 
 
-Author: Hamid Ghasemi
+- Author: Hamid Ghasemi
 
-Feel free to open issues or submit pull requests for enhancements or bug fixes.
+- Feel free to open issues or submit pull requests for enhancements or bug fixes.
 
 
 
