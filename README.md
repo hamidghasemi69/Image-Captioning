@@ -43,22 +43,22 @@ The repository contains Jupyter notebooks and Python scripts covering the full p
 
 Install required dependencies (e.g., TensorFlow or PyTorch, NumPy, etc.):
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 ---
 
 ## Workflow
 
-Prepare the Data: Run 0_Dataset.ipynb to download and preprocess images and captions.
+Prepare the Data: Run `0_Dataset.ipynb` to download and preprocess images and captions.
 
-Explore & Set Up: Use 1_Preliminaries.ipynb to explore data distributions, vocabulary, and image samples.
+Explore & Set Up: Use `1_Preliminaries.ipynb` to explore data distributions, vocabulary, and image samples.
 
-Train the Model: Run 2_Training.ipynb to train the CNN–LSTM model. Monitor training loss and evaluation metrics.
+Train the Model: Run `2_Training.ipynb` to train the CNN–LSTM model. Monitor training loss and evaluation metrics.
 
-Generate Captions: Use 3_Inference.ipynb to load a trained model and generate captions for new images.
+Generate Captions: Use `3_Inference.ipynb` to load a trained model and generate captions for new images.
 
-Submission Packaging: Optionally, 4_Zip Your Project Files and Submit.ipynb helps package the project for submission or sharing.
+Submission Packaging: Optionally, `4_Zip` Your Project Files and Submit.ipynb helps package the project for submission or sharing.
 
 
 ---
@@ -70,7 +70,7 @@ Once trained, the model should be able to generate captions like:
 
 "A group of people standing on a beach holding surfboards."
 
-You can find example outputs in the notebooks (e.g., 3_Inference.ipynb).
+You can find example outputs in the notebooks (e.g., `3_Inference.ipynb`).
 
 
 ---
@@ -87,7 +87,7 @@ Inspired by the classic encoder–decoder architecture (CNN → LSTM) often used
 ## Contact & Contributions
 
 
-- Author: Hamid Ghasemi
+- Author: **Hamid Ghasemi**
 
 - Feel free to open issues or submit pull requests for enhancements or bug fixes.
 
