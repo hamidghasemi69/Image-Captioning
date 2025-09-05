@@ -73,6 +73,20 @@ Once trained, the model should be able to generate captions like:
 You can find example outputs in the notebooks (e.g., `3_Inference.ipynb`).
 
 
+<img width="1291" alt="image_caption" src="https://github.com/hamidghasemi69/Image-Captioning/assets/22797186/23200d45-5d6c-48c2-aeb4-bf533b402714">
+
+
+
+
+After, training the model, I tried to generate the captions for some new images. Below is one sample output:
+
+
+
+
+<img width="376" alt="image_caption_sample" src="https://github.com/hamidghasemi69/Image-Captioning/assets/22797186/ea4e0aa1-657b-4e97-b1b0-4781e4b5f775">
+
+
+
 ---
 
 ## Acknowledgements
