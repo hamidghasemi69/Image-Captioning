@@ -2,7 +2,7 @@
 
 **Training a CNN-RNN model to predict captions for a given image**
 
-This project implements an encoder–decoder architecture using Convolutional Neural Networks (CNN) as the encoder and Recurrent Neural Networks (RNN) with LSTM cells as the decoder to generate natural language captions from images. The model is trained using the COCO dataset.
+This project implements an `encoder–decoder` architecture using Convolutional Neural Networks (CNN) as the encoder and Recurrent Neural Networks (RNN) with LSTM cells as the decoder to generate natural language captions from images. The model is trained using the COCO dataset.
 
 ---
 
