@@ -78,7 +78,7 @@ You can find example outputs in the notebooks (e.g., `3_Inference.ipynb`).
 
 
 
-After, training the model, I tried to generate the captions for some new images. Below is one sample output:
+After, training the model, a sample output as below is generated:
 
 
 
