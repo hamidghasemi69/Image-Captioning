@@ -1,23 +1,102 @@
 # Image-Captioning
-Training a CNN-RNN model to predict captions for a given image
-# Project Overview: Building a CNN-RNN Network for Image Captioning
-In this project, I implemented an encoder-decoder architecture using Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) to automatically generate captions from images. The training data used for this project is the [COCO dataset](https://paperswithcode.com/dataset/coco). 
 
-On the encoding side, a CNN is employed to extract features from the input images, while on the decoding side, RNNs with LSTM cells are used to generate the captions. Below is a representation of the encoder-decoder architecture:
+**Training a CNN-RNN model to predict captions for a given image**
+
+This project implements an encoder–decoder architecture using Convolutional Neural Networks (CNN) as the encoder and Recurrent Neural Networks (RNN) with LSTM cells as the decoder to generate natural language captions from images. The model is trained using the COCO dataset.
+
+---
+
+## Project Overview
+
+- **Encoder**: Extracts image features using a CNN (e.g., pre-trained ResNet or VGG).
+- **Decoder**: Generates captions using an LSTM-based RNN, taking the CNN features as initial input.
+
+The repository contains Jupyter notebooks and Python scripts covering the full pipeline—from preliminary exploration to inference.
+
+---
+
+## Repository Structure
+
+0_Dataset.ipynb # Data loading and preprocessing
+1_Preliminaries.ipynb # Exploratory data analysis and setup
+2_Training.ipynb # Model training and learning curves
+3_Inference.ipynb # Generating captions for new images
+4_Zip Your Project Files and Submit.ipynb # Packaging for submission
+data_loader.py # Loads and preprocesses COCO dataset
+model.py # Defines the CNN-RNN model architecture
+vocabulary.py # Manages text tokenization and vocabulary
+vocab.pkl # Serialized vocabulary object
+README.md # This file
 
 
 
+---
+
+## Datasets
+
+- Uses the **COCO (Common Objects in Context)** dataset for training and evaluation.
+- Ensure you download and structure the dataset as expected by the data loader (see `0_Dataset.ipynb` for guidance).
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Install required dependencies (e.g., TensorFlow or PyTorch, NumPy, etc.):
+
+```bash
+pip install -r requirements.txt
 
 
-<img width="1291" alt="image_caption" src="https://github.com/hamidghasemi69/Image-Captioning/assets/22797186/23200d45-5d6c-48c2-aeb4-bf533b402714">
+
+(Note: Create or update a requirements.txt file listing your dependencies.)
+
+Workflow
+
+Prepare the Data
+Run 0_Dataset.ipynb to download and preprocess images and captions.
+
+Explore & Set Up
+Use 1_Preliminaries.ipynb to explore data distributions, vocabulary, and image samples.
+
+Train the Model
+Run 2_Training.ipynb to train the CNN–LSTM model. Monitor training loss and evaluation metrics.
+
+Generate Captions
+Use 3_Inference.ipynb to load a trained model and generate captions for new images.
+
+Submission Packaging
+Optionally, 4_Zip Your Project Files and Submit.ipynb helps package the project for submission or sharing.
+
+
+Results & Sample Output
+
+Once trained, the model should be able to generate captions like:
+
+
+"A group of people standing on a beach holding surfboards."
+
+
+Acknowledgements
+
+COCO Dataset for rich image-caption pairs.
+
+Inspired by the classic encoder–decoder architecture (CNN → LSTM) often used in image captioning.
 
 
 
+License
 
-After, training the model, I tried to generate the captions for some new images. Below is one sample output:
+This project is open-source and available under the MIT License. See the LICENSE
+ file for more details.
 
 
+Contact & Contributions
+
+Author: Hamid Ghasemi
+
+Feel free to open issues or submit pull requests for enhancements or bug fixes.
 
 
-<img width="376" alt="image_caption_sample" src="https://github.com/hamidghasemi69/Image-Captioning/assets/22797186/ea4e0aa1-657b-4e97-b1b0-4781e4b5f775">
 
